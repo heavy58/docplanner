@@ -1,0 +1,598 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 80px;
+    padding-right: 80px;
+    position: fixed;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    padding-top: 12px;
+    align-items: center;
+    font-weight: 400;
+    width: 100%;
+    background-color: white;
+    top: 0%;
+
+}
+a{
+    text-decoration: none;
+}
+.listop{
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    padding-left: 120px;
+}
+.about{
+    color: #00B39B;
+}
+.career{
+    color: #8A7474;
+}
+.departments{
+    color:#8A7474;
+    list-style-type: none;
+    margin-left: -50px;
+}
+.parent{
+    position: relative;
+    display: inline-block;
+}
+.child{
+    display: none;
+    position: absolute;
+    width: 200px;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    line-height: 1.5;
+    right: -31px;
+    padding-top: 14px;
+    padding-left: 10px;
+    
+}
+.parent:hover .child{
+display: block;
+}
+.marketing{
+    color:#8A7474;
+}
+.customer{
+    color: #8A7474;
+}
+.IT{
+    color: #8A7474;
+}
+.Finances{
+    color: #8A7474;
+}
+.HR{
+    color: #8A7474;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.paragraphe{
+display: flex;
+justify-content: center;
+color: #00B39B;
+padding-top: 50px;
+padding-bottom: 50px;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+-webkit-font-smoothing: antialiased;
+font-size: 2.125rem;
+}
+.paragraphee{
+    display: flex;
+    justify-content:space-around;
+}
+.paragraphee1{
+padding-left:220px;
+line-height: 1.5;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: rgb(116, 116, 116);
+-webkit-font-smoothing:antialiased;
+width: 98%;
+font-size: 16px;
+margin-right: 50px;
+}
+.paragraphee2{
+padding-right: 220px;
+line-height: 1.5;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: rgb(116, 116, 116);
+-webkit-font-smoothing:antialiased;
+width: 98%;
+font-size: 16px;
+}
+.marketing:hover{
+    background-color: rgb(226, 217, 217);
+    color: #00B39B;
+    width: 200px;
+}
+.customer:hover{
+    background-color: rgb(226, 217, 217);
+    color: #00B39B;
+}
+.IT:hover{
+    background-color: rgb(226, 217, 217);
+    color: #00B39B;
+}
+.Finances:hover{
+    background-color: rgb(226, 217, 217);
+    color: #00B39B;
+}
+.HR:hover{
+    background-color: rgb(226, 217, 217);
+    color:#00B39B ;
+}
+.career:hover{
+    color:#00B39B;
+}
+.departments:hover{
+    color: #00B39B ;
+}
+.patient{
+    background-color: #00CCB1;
+    width: 477px;
+    height: 393px;
+    border-radius: 8px;
+    margin-left: 170px;
+}
+.doctor{
+    background-color: #3D83DF;
+    width: 477px;
+    height: 393px;
+    border-radius: 8px;
+    margin-right: 170px;
+}
+.grandespace{
+    margin-top: 100px;
+}
+.for{
+    color: #51E7E4;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-seri;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+}
+.find{
+    color: #FFF7E1;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-seri;
+    font-size: 26px;
+    font-weight: 300;
+    font-weight: 33.8px;
+}
+.coupure1{
+    width: 300px;
+    height: 217px;
+    padding-left: 250px;
+}
+.grandespace{
+display: flex;
+justify-content: space-around;
+}
+.coupure2{
+    width: 300px;
+    height: 217px;
+    padding-left: 250px;
+}
+.coupure22{
+    overflow: hidden;
+}
+.coupure11{
+    overflow: hidden;
+
+}
+.for1{
+    color: #51E7E4;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-seri;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+}
+.find1{
+    color: #FFF7DE;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-seri;
+    font-size: 26px;
+    font-weight: 300;
+    font-weight: 33.8px;
+}
+.we{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 33.8px;
+    color: #51E7E4;}
+
+.leader{
+    background-color: white;
+    width: 227px;
+    height: 250px;
+    margin-top: 51px;
+    align-content: center;
+}
+.espace{
+    display: flex;
+    justify-content: space-around;
+    background-color: #DAF7F6;
+}
+.leaders{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31.2px;
+    color: rgb(0, 179, 155);
+    padding-left: 50px;
+}
+
+.million{
+    background-color: white;
+    width: 227px;
+    height: 250px;
+    margin-top: 21px;
+}
+.visit{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: gray;
+    font-size:13px;  
+    padding-left: 30px;   
+}
+.bra{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: gray; 
+    font-size:13px; 
+    padding-left: 30px; 
+}
+.appointment{
+    background-color: white;
+    width: 229px;
+    height: 252px;
+    margin-top: 21px;
+}
+.active{
+    background-color: white;
+    width: 229px;
+    height: 252px;
+    margin-top: 21px;
+}
+.partie2{
+    display: flex;
+}
+.mill{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31.2px;
+    color: rgb(0, 179, 155);
+    padding-left: 50px;
+}
+.doctors{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31.2px;
+    color: rgb(0, 179, 155);
+    padding-left: 50px;
+}
+.booked{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: gray;
+font-size:13px;  
+padding-left: 50px;
+}
+.trust{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: gray;
+font-size:13px; 
+padding-left: 50px; 
+}
+.millions{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31.2px;
+    color: rgb(0, 179, 155);
+    padding-left: 20px;
+}
+.carrot2{
+    padding-left: 35px;
+}
+.partie1{
+    padding-left: 200px;
+}
+.world{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 34px;
+    Line-height: 44.2px;
+    color:rgb(0, 179, 155);
+}
+.wework{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(116, 116, 116);
+}
+.tous {
+    display: flex;
+}
+.hover {
+    display: flex
+}
+.improve{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 39px;
+    color: rgb(0, 179, 155);
+    display: flex;
+    justify-content: center;
+}
+.more{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(116, 116, 116);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.center{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 96px;
+    padding-bottom: 81px;
+}
+.change{
+    display: flex;
+    justify-content: center;
+
+}
+.pays1 {
+    width: 23.3%;
+    background-color: white;
+    margin-bottom: 25px;
+    margin-left: 200px;
+    
+  }
+.container1{
+      display: flex;
+      justify-content: space-between;
+    padding: 10px 20px;
+}
+.setting1{
+    margin-left: 160px;
+
+}
+.rrr:hover .hovver {
+    color: #00BFA5
+}
+.sss:hover .hovvver{
+    color:#00BFA5
+}
+.ttt:hover .hovvvver{
+    color:#00BFA5
+}
+.uuu:hover .hovvvvver{
+    color:#00BFA5
+}
+.vvv:hover .hovvvvvver{
+color: #00BFA5;
+}
+.container1:hover{
+    border: 1px solid blanchedalmond;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pays2 {
+    width: 23.3%;
+    background-color: white;
+    margin-bottom: 25px;
+    
+  }
+.container2{
+    display: flex;
+    justify-content: space-between;
+  padding: 10px 20px;
+}
+.setting2{
+    margin-left: 160px;
+}
+.container2:hover{
+    border: 1px solid blanchedalmond;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pays3 {
+    width: 23.3%;
+    background-color: white;
+    margin-bottom: 25px;
+    margin-right: 100px;
+    
+  }
+.container3{
+    display: flex;
+    justify-content: space-between;
+  padding: 10px 20px;
+}
+.setting3{
+    margin-left: 160px;
+}
+.container3:hover{
+    border: 1px solid blanchedalmond;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pays4 {
+    width: 23.3%;
+    background-color: white;
+    margin-bottom: 25px;
+    margin-left: 200px;
+    
+  }
+.container4{
+    display: flex;
+    justify-content: space-between;
+  padding: 10px 20px;
+}
+.setting4{
+    margin-left: 160px;
+}
+.container4:hover{
+    border: 1px solid blanchedalmond;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pays5 {
+    width: 23.3%;
+    background-color: white;
+    margin-bottom: 25px;
+    
+  }
+.container5{
+    display: flex;
+    justify-content: space-between;
+  padding: 10px 20px;
+}
+.setting5{
+    margin-left: 160px;
+}
+.container5:hover{
+    border: 1px solid blanchedalmond;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pays6 {
+    width: 23.3%;
+    background-color: white;
+    margin-bottom: 25px;
+    margin-right: 100px;
+    
+  }
+.container6{
+    display: flex;
+    justify-content: space-between;
+  padding: 10px 20px;
+}
+.setting6{
+    margin-left: 160px;
+}
+.container6:hover{
+    border: 1px solid blanchedalmond;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.an{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+    color: rgb(171, 171, 171);
+}
+
+
+.endd{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+    color: rgb(171, 171, 171);
+    justify-content: center;
+}
+.aree{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+    color: rgb(171, 171, 171); 
+}
+.a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+    color: rgb(61, 131, 223);
+}
+.polarois{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+.polarois2{
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.prem{
+    display: flex;
+    align-items:center;
+}
+.flee{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+
+}
+.imagedoc{
+    margin-top:70px;
+    margin-left: -180px;
+}
+.flagg{
+    margin-left: 80px;
+    margin-top: 37px;
+    color: #00BFA5;
+    font-size: 35px;
+}
+.userss{
+    margin-left: 80px;
+    margin-top: 37px;
+    color: #00BFA5;
+    font-size: 35px;
+}
+.appoi{
+    margin-left: 80px;
+    margin-top: 37px;
+    color: #00BFA5;
+    font-size: 35px;
+}
+.usersss{
+    margin-left: 80px;
+    margin-top: 37px;
+    color: #00BFA5;
+    font-size: 35px;
+}
+.az{
+display: flex;
+justify-content: center;
+}
+.bz{
+    display: flex;
+    justify-content: center;
+}
+.cz{
+    display: flex;
+    justify-content: center;
+}
+.dz{
+    display: flex;
+    justify-content: center;
+}
+.vvv{
+    display: flex;
+    justify-content: center;
+    width: 10px;
+    padding-top: 20px;
+    margin-left:-415px;
+}
+.sss{
+    width: 110px;
+}
+.ttt{
+    width: 110px;
+}
+.uuu{
+    width: 135px;
+}
+.hovvvvvver{
+    width: 135;
+}
